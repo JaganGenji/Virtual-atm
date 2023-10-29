@@ -17,8 +17,9 @@
    - A
    - B
 
-![Planet9_3840x2160](https://github.com/JaganGenji/Virtual-atm/assets/149280529/51d98f8e-9559-4baa-aa8b-663c37142ff0)
-!(https://github.com/JaganGenji/Virtual-atm/issues/2#issue-1966905789)
+
 ![image](https://github.com/JaganGenji/Virtual-atm/assets/149280529/04646ae8-df96-4ce8-b109-90431ef872ea)
+![image](https://github.com/JaganGenji/Virtual-atm/assets/149280529/01e1d430-eabd-47c7-bbd3-e2e12311a710)
+
 
 
