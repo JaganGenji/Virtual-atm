@@ -17,7 +17,7 @@
 5)  In home page there are some options are there
 6)  by click on **Balance Inquiry**
 ![image](https://github.com/JaganGenji/Virtual-atm/assets/149280529/01e1d430-eabd-47c7-bbd3-e2e12311a710)
-By entering pin available balance will be showed
+By entering pin available balance will be showed   
 ![image](https://github.com/JaganGenji/Virtual-atm/assets/149280529/6ad5f0a5-9f82-4f5d-92f0-33ce1c5ef518)
 8)after that the page will be redirected to **thanks page**
 ![image](https://github.com/JaganGenji/Virtual-atm/assets/149280529/37f5e07e-c3ea-4032-9253-68ad70882dad)
