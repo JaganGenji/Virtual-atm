@@ -12,6 +12,9 @@
 1) login page was starting index
 2) if you are a new user then register by clicking on the **Register here**
 3) after redirected to login page enter **Accountno** and **password**
+![image](https://github.com/JaganGenji/Virtual-atm/assets/149280529/44f53934-d9af-4138-8c1c-94b57dca888c)
+
+
 4) After login validation page redirected to **Home page**
 ![image](https://github.com/JaganGenji/Virtual-atm/assets/149280529/04646ae8-df96-4ce8-b109-90431ef872ea)
 5)  In home page there are some options are there
