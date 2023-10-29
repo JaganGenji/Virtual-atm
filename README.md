@@ -13,11 +13,9 @@
 2) if you are a new user then register by clicking on the **Register here**
 3) after redirected to login page enter **Accountno** and **password**
 4) After login validation page redirected to **Home page**
-5) ## In home page there are some options are there
- - A
- - B
-7) 
-
+5)  In home page there are some options are there
+   - A
+   - B
 
 ![Planet9_3840x2160](https://github.com/JaganGenji/Virtual-atm/assets/149280529/51d98f8e-9559-4baa-aa8b-663c37142ff0)
 
