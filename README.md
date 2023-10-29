@@ -33,6 +33,7 @@ to select the options are to select **other** button
 ![image](https://github.com/JaganGenji/Virtual-atm/assets/149280529/14cb0928-2e10-4421-a9c8-819814a839da)
 after that there is a popup is comming for sucessfully deposited
 ![image](https://github.com/JaganGenji/Virtual-atm/assets/149280529/ce8c319d-b1ff-4d9e-af35-d6acce6e7356)
+that will be redirect to **thanks page** and redirect to the **login page**
 
 
 
