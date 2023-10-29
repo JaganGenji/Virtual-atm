@@ -27,6 +27,16 @@ By entering pin available balance will be showed
 ![image](https://github.com/JaganGenji/Virtual-atm/assets/149280529/37f5e07e-c3ea-4032-9253-68ad70882dad)
 
 9)that page will be redirected to **Login page**
+## BY click on FAST cash
+![image](https://github.com/JaganGenji/Virtual-atm/assets/149280529/cc56a723-0386-4a07-9e26-56ed75f3ba8e)
+to select the options are to select **other** button
+![image](https://github.com/JaganGenji/Virtual-atm/assets/149280529/14cb0928-2e10-4421-a9c8-819814a839da)
+after that there is a popup is comming for sucessfully deposited
+![image](https://github.com/JaganGenji/Virtual-atm/assets/149280529/ce8c319d-b1ff-4d9e-af35-d6acce6e7356)
+
+
+
+
   
 
 
