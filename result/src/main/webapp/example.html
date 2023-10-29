@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disallow Whitespace in Label</title>
+    <script>
+        function validateInput() {
+            var input = document.getElementById('labelInput').value;
+            if (/\s/.test(input)) {
+                alert('Whitespace is not allowed in the label.');
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <form onsubmit="return validateInput()">
+        <label for="labelInput">Label:</label>
+        <input type="text" id="labelInput" name="labelInput">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

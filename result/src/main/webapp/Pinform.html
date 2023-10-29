@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(235, 232, 228);
+  }
+  .border-container input {
+            width: 50%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        .border-container {
+    width: 700px; /* Set the desired border length */
+    height: 550px; /* Set the desired border height */
+    border: 2px solid black; /* Set the border properties */
+    border-radius: 50px;
+    background-color: rgb(156, 171, 231);
+    text-align: center;
+    line-height: 50px;
+  }
+  .border-container input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        .border-container input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+	<form action="pinvalidation" id="pinvalidatoin">
+    <div class="border-container">
+        <h1>please enter your valid  password</h1>
+        <!--<input type="text"placeholder="please enter your username"name="username">-->
+       <input type="password"placeholder="please ener your transition pin"name="password">
+        
+       
+   
+        
+        <input type="submit" value="submit">
+    </div>
+    </form>
+    <!--<script>
+		-----for value passing
+		const username=localStorage.getItem('first-name');
+		const password=localStorage.getItem('pass-wordval');
+		document.getElementById('first-name').textContent=username;
+		document.getElementById('pass-wordval').textContent=password;
+		
+	</script>-->
+
+</body>
+</html>

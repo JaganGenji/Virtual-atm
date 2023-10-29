@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+ <style>
+         body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(235, 232, 228);
+  }
+  .border-container input {
+            width: 50%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        .border-container {
+    width: 700px; /* Set the desired border length */
+    height: 550px; /* Set the desired border height */
+    border: 2px solid black; /* Set the border properties */
+    border-radius: 50px;
+    background-color: rgb(156, 171, 231);
+    text-align: center;
+    line-height: 50px;
+  }
+  .border-container input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        .border-container input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+<body>
+	<form action="Debite">
+		 <div class="border-container">
+			 <h1>please enter your valid amount</h1>
+		<input type="number" name="amount">
+		<input type="submit" value="submit">
+		
+	</form>
+
+</body>
+</html>

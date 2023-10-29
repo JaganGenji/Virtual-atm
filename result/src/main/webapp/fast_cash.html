@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: bisque;
+  }
+  .border-container {
+    width: 700px; /* Set the desired border length */
+    height: 550px; /* Set the desired border height */
+    border: 2px solid black; /* Set the border properties */
+    border-radius: 50px;
+    background-color: rgb(156, 171, 231);
+    text-align: center;
+    line-height: 50px;
+  }
+  .flex-parent {
+  display: flex;
+}
+
+.flex-parent {
+  justify-content: center;
+}
+.button{
+    size: 50%;
+    
+}
+
+button.right {
+  margin-right: 350px;
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  background-color: rgb(220, 211, 211);
+}
+button.left
+{
+  margin-left: 4px;
+    border-radius: 50px;
+    width: 150px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    font-size: 16px;
+    background-color: rgb(220, 211, 211);
+}
+.flex-parent input[type="submit"] {
+    border-radius: 50px;
+    width: 150px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    font-size: 16px;
+    background-color: rgb(220, 211, 211);
+        }
+</style>
+</head>
+<body>
+	<form action="Fastcash">
+  <div class="border-container" action="Fastcash">
+   Select amount
+ 
+  <div class="flex-parent">
+    <button type="submit" class="right" name="amount" value="100">100</button>
+    <button type="submit" class="left" name="amount" value="1000">1000</button>
+  </div>
+  <br>
+  
+  <div class="flex-parent">
+    <button type="submit" class="right"name="amount" value="200">200</button>
+    <button type="submit" class="left"name="amount" value="2000">2000</button>
+  </div>
+  <br>
+  <div class="flex-parent">
+    <button type="submit" class="right"name="amount" value="300">300</button>
+    <button type="submit" class="left"name="amount" value="5000">5000</button>
+  </div>
+
+  <br>
+  <div class="flex-parent">
+    <button type="submit" class="right"name="amount" value="400">400</button>
+    <button type="submit" class="left"name="amount" value="0">other</button>
+  </div>
+  
+  </form>
+
+  
+</div>
+</body>
+</html>

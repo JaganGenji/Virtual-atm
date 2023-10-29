@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Text to Speech Example</title>
+</head>
+<body>
+    <h1>Text to Speech Example</h1>
+    <textarea id="text-to-speak" rows="4" cols="50"></textarea>
+    <button onclick="speak()">Speak</button>
+
+    <script>
+        function speak() {
+            var text = "this is jagan mohan geni";
+            var speech = new SpeechSynthesisUtterance(text);
+            window.speechSynthesis.speak(speech);
+        }
+    </script>
+</body>
+</html>

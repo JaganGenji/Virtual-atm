@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Page</title>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .fund {
+    
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .fund input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+  }
+
+  .fund input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        .fund input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+</style>
+</head>
+<body>
+	 <form action="fundtransfor" >
+  <div class="fund">
+    <h2></h2>
+   
+		<label for="TransformAccountno">TransformAccountno</label>
+		    <input type="text" name="TransformAccountno" placeholder="TransformAccountno" required><br>
+		    <label for="Money">Amount</label>
+		    <input type="number"name="money"placeholder="Enter amount to transfer">
+     <input type="submit"value="Transfer">
+    </form>
+  </div>
+</body>
+</html>

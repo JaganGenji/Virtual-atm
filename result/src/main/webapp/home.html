@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: bisque;
+  }
+  .border-container {
+    width: 700px; /* Set the desired border length */
+    height: 550px; /* Set the desired border height */
+    border: 2px solid black; /* Set the border properties */
+    border-radius: 50px;
+    background-color: rgb(156, 171, 231);
+    text-align: center;
+    line-height: 50px;
+  }
+  .flex-parent {
+  display: flex;
+}
+
+.flex-parent {
+  justify-content: center;
+}
+.button{
+    size: 50%;
+    
+}
+
+button.right {
+  margin-right: 350px;
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  background-color: rgb(220, 211, 211);
+}
+button.left
+{
+  margin-left: 4px;
+    border-radius: 50px;
+    width: 150px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    font-size: 16px;
+    background-color: rgb(220, 211, 211);
+}
+</style>
+</head>
+<body>
+	<script>
+		var text = "please select your option";
+            var speech = new SpeechSynthesisUtterance(text);
+            window.speechSynthesis.speak(speech);
+	</script>
+  <div class="border-container" action="">
+   Please select your option
+ 
+  <div class="flex-parent">
+    <button type="submit" class="right" onclick="window.location.href='Pinform.html'" >Balance Inquiry</button>
+    <button type="submit" class="left" onclick="window.location.href='fast_cash.html';">Fast Cash</button>
+  </div>
+  <br>
+  
+  <div class="flex-parent">
+	  <form action="ministatement">
+    <button type="submit" class="right" >Mini Statement</button>
+    </form>
+    <button type="submit" class="left" onclick="window.location.href='Debit.html'">Cash With Draw</button>
+  </div>
+  <br>
+  <div class="flex-parent">
+    <button type="submit" class="right"onclick="window.location.href='deposite.html'">Deposite</button>
+    <button type="submit" class="left"onclick="window.location.href='passwordchange.html'">Pin Change</button>
+  </div>
+
+  <br>
+  <div class="flex-parent">
+    <button type="submit" class="right">Bill Payments</button>
+    <button type="submit" class="left"onclick="window.location.href='FundTransfer.html'">Funds transfer</button> 
+  </div>
+  
+</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Thanks for using ATM..</title>
+</head>
+<body >
+  <center>  <h1 style="background-color: beige;">Thanks for using ATM...</h1></center>
+    
+   
+    <script>
+        
+            var text = "Thanks for using ATM..";
+            var speech = new SpeechSynthesisUtterance(text);
+            window.speechSynthesis.speak(speech);
+            setTimeout(function() {
+                window.location.href = "Login.html"; // Replace with your desired URL
+            }, 5000);
+        
+    </script>
+</body>
+</html>

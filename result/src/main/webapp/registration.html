@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+    <script>
+        function validateInput() {
+            var input = document.getElementById('name').value;
+            if (/\s/.test(input)) {
+                alert('Whitespace is not allowed in the label.');
+                return false;
+            }
+            return true;
+        }
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input {
+            width: 90%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        .form-group button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+<form onsubmit="return validateInput()"action="registration" method="post">
+    <div class="container">
+        <h2>Registration Form</h2>
+        
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+             <div class="form-group">
+                <label for="name">Account no:</label>
+                <input type="text" id="Accountno" name="Accountno" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="number">mobile no::</label>
+                <input type="text" id="mobile_no" name="mobile" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="gender">Gender :</label><br>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" required><br>
+            </div>
+            <div class="form-group">
+                <label for="dateofbirth">Date of birth:</label>
+                <input type="text" name="dateOfBirth" required>
+
+            </div>
+            <div class="form-group">
+                <label for="address">Address</label>
+                <input type="text" name="address" required>
+            </div>
+
+            <div class="form-group">
+               <input type="submit" value="Submit"/>
+                <p>Already have an account? <a href="Login.html">Login here</a></p>
+            </div>
+        
+    </div>
+    </form>
+</body>
+
+</html>
