@@ -1,5 +1,5 @@
 # Virtual-atm
-**Technologies**
+*Technologies*
 ->By using HTML,CSS and Java Script to create webpages
 ->BY using java programatically used
 ->By using MYSQL to do operations on database
